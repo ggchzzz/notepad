@@ -1,0 +1,13 @@
+<!--pages/edit/index.wxml-->
+<!-- <text>pages/edit/index.wxml</text> -->
+<view class='textarea'>
+<view class='iteminput'>
+  <textarea 
+  type='textarea'  bindinput='show' placeholder='请输记事本内容' value='{{content}}' >
+  </textarea> 
+</view>
+  <view class='btn'>
+    <button class='cancel'>取消</button>
+    <button class='confirm' bindtap='sure'>确定</button>
+  </view>
+</view>

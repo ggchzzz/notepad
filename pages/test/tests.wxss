@@ -1,0 +1,33 @@
+/* pages/test/tests.wxss */
+.head{
+display: flex;
+flex-direction: column;
+padding-bottom: 50px;
+}
+.item{
+  padding: 10rpx;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+.item view{
+  display: flex;
+  justify-content: space-between;
+}
+.item view:first-child{
+  border-bottom: 1px solid greenyellow;
+}
+
+.item view button{
+  margin-right: 0px;
+  width: 140rpx;
+  height: 70rpx;
+}
+.btn{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  border-radius: 50%;
+  background-color: greenyellow;
+}

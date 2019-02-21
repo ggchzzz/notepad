@@ -1,0 +1,23 @@
+/* pages/edit/index.wxss */
+page{
+  height: 100%;
+}
+page .textarea{
+  height: 100%;
+}
+page .textarea .iteminput{
+  height: 90%;
+}
+page .textarea .iteminput textarea{
+  width: 100%;
+}
+page .textarea .btn{
+  height: 10%;
+  display: flex;
+  
+}
+page .textarea .btn button{
+  width: 50%;
+}
+
+

@@ -1,0 +1,12 @@
+<!--pages/test/tests.wxml-->
+<view class='head'>
+<view class='item' wx:for="{{notedata}}" wx:key="index">
+<view>
+<text>{{item.content}}</text>   <button bindtap='edit'  data-id='{{item.id}}'  >修改</button>
+</view>  
+<view>
+ <text>{{item.time}}</text>   <button bindtap='del' data-id='{{item.id}}'>删除</button>
+</view>
+</view>
+<button class='btn' bindtap='turn'>新增</button>
+</view>
